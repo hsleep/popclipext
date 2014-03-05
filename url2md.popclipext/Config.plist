@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Requirements</key>
+	<array>
+		<string>httpurl</string>
+	</array>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>URL2MD</string>
+			<key>AppleScript File</key>
+			<string>url2md.applescript</string>
+			<key>After</key>
+			<string>copy-result</string>
+		</dict>
+	</array>
+	<key>Extension Identifier</key>
+	<string>org.meot.url2md</string>
+	<key>Extension Name</key>
+	<string>URL2MD</string>
+	<key>Required Apps</key>
+	<array>
+		<string>com.google.Chrome</string>
+		<string>com.apple.Safari</string>
+	</array>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
